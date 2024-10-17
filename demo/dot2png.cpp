@@ -148,7 +148,7 @@ void dot_to_png(
         char* frame_filename = nullptr;
         string frame_filename_format;
 
-        // support for outputing (almost) all frames
+        // support for outputting (almost) all frames
         if (animated) {
             size_t index = png_filename.rfind(".png");
             if (index == string::npos) {
